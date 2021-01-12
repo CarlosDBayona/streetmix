@@ -54,6 +54,7 @@ function SegmentLabelContainer (props) {
             />
           </p>
         )}
+        <p>Hola</p>
       </div>
     </div>
   )
