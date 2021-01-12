@@ -15,6 +15,7 @@ function StreetMeta (props) {
   return (
     <div className="street-metadata">
       <StreetMetaWidthContainer />
+      <StreetMetaAnalytics />
       {enableAnalytics && <StreetMetaAnalytics />}
       <StreetMetaGeotag />
       <StreetMetaAuthor />
